@@ -20,6 +20,7 @@ npm run build
 - vue 2.x
 - vue-cli 5.x
 - vant 2.x
+- less
 - axios
 - postcss-px-to-viewport
 - vuex
@@ -34,3 +35,7 @@ npm run build
 viewportWidth: loaderContext.resourcePath.includes("vant") ? 375 : 750
 ```
 3. Vant 2 官方文档：https://vant-ui.github.io/vant/v2/#/zh-CN/
+
+4. 本项目引入了完整的 Vant2 组件库，可以自己改成按需加载。或删除使用别的组件库
+
+5. 可以参考官网[自定义主题](https://vant-ui.github.io/vant/v2/#/zh-CN/theme)，自定义组件库主题色。
