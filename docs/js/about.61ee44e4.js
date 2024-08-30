@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkvue_mobile_starter"]=self["webpackChunkvue_mobile_starter"]||[]).push([[594],{9093:function(t,u,e){e.r(u),e.d(u,{default:function(){return i}});var n=function(){var t=this,u=t._self._c;return u("div",{staticClass:"about"},[u("h1",[t._v("This is an about page")]),u("van-button",{attrs:{type:"primary"}},[t._v("Vant Button")])],1)},a=[],r=e(1656),s={},l=(0,r.A)(s,n,a,!1,null,null,null),i=l.exports}}]);
-//# sourceMappingURL=about.61ee44e4.js.map

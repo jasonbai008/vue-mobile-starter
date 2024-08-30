@@ -20,6 +20,7 @@ npm run build
 - vue 2.x
 - vue-cli 5.x
 - vant 2.x
+- axios
 - postcss-px-to-viewport
 - vuex
 - vue-router

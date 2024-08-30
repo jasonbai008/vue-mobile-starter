@@ -1,6 +1,23 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <van-button type="primary">Vant Button</van-button>
+    <h4>使用了 postcss-px-to-viewport 插件</h4>
+    <h4>将 px 动态转成 vw</h4>
+    <van-button type="primary" @click="show">Vant Button</van-button>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {};
+  },
+  methods: {
+    show() {
+      this.$toast({
+        message: "提示文案",
+        type: "success",
+      });
+    },
+  },
+};
+</script>
