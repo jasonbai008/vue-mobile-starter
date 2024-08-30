@@ -14,10 +14,16 @@ export default {
   methods: {
     show() {
       this.$toast({
-        message: "提示文案",
+        message: "Vant UI",
         type: "success",
       });
     },
   },
 };
 </script>
+
+<style lang="less" scoped>
+.about {
+  padding-top: 20vh;
+}
+</style>

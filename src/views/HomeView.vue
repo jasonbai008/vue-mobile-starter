@@ -16,3 +16,10 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="less">
+img {
+  width: 200px;
+  margin-top: 20vh;
+}
+</style>
