@@ -26,5 +26,10 @@ npm run build
 
 ## Notes
 
-1. 默认设计稿宽度：750px，Vant组件库宽度：375px，已做适配。文章参考：https://blog.csdn.net/qq_39831708/article/details/125472960
-2. Vant 2 官方文档：https://vant-ui.github.io/vant/v2/#/zh-CN/
+1. 默认设计稿宽度：750px，Vant组件库宽度：375px，已做适配。
+```js
+// vue.config.js
+// 参考：https://blog.csdn.net/qq_39831708/article/details/125472960
+viewportWidth: loaderContext.resourcePath.includes("vant") ? 375 : 750
+```
+3. Vant 2 官方文档：https://vant-ui.github.io/vant/v2/#/zh-CN/
