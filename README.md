@@ -19,16 +19,17 @@ npm run build
 
 - vue 2.x
 - vue-cli 5.x
+- vuex
+- vue-router
 - vant 2.x
 - less
 - axios
 - postcss-px-to-viewport
-- vuex
-- vue-router
 
 ## Features
 
 - 集成了 Vant 2 组件库
+- 组件库支持自定义主题色
 - 支持 px2vw 单位转换，字号不转换
 - 集成了 VConsole，方便调试
 - 封装了 axios 请求实例
