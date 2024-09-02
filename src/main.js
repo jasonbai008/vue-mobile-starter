@@ -6,7 +6,9 @@ import VConsole from "vconsole";
 
 // 引入完整的Vant2组件库
 import Vant from "vant";
-import "vant/lib/index.css";
+// import "vant/lib/index.css";
+// 引入全部样式
+import 'vant/lib/index.less';
 
 // 引入封装的请求模块并绑定
 import http from "./http";
