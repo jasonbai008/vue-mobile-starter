@@ -26,9 +26,16 @@ npm run build
 - vuex
 - vue-router
 
+## Features
+
+- 集成了 Vant 2 组件库
+- 支持 px2vw 单位转换，字号不转换
+- 集成了 VConsole，方便调试
+- 封装了 axios 请求实例
+
 ## Notes
 
-1. 默认设计稿宽度：750px，Vant组件库宽度：375px，已做适配。
+1. 默认设计稿宽度：**750px**，Vant组件库宽度：**375px**，已做适配。
 ```js
 // vue.config.js
 // 参考：https://blog.csdn.net/qq_39831708/article/details/125472960

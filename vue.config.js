@@ -9,13 +9,12 @@ module.exports = defineConfig({
         postcssOptions: (loaderContext) => {
           return {
             plugins: [
-              // ["autoprefixer"],
               {
                 "postcss-px-to-viewport": {
                   unitToConvert: "px", // 需要转换的单位，默认为"px"                  
                   viewportWidth: loaderContext.resourcePath.includes("vant") ? 375 : 750, // 区分vant设计以375为基准。实际项目ui为750的情况
                   unitPrecision: 5, // 单位转换后保留的精度
-                  propList: ["*"], // 能转化为vw的属性列表,!font-size表示font-size后面的单位不会被转换
+                  propList: ["*", '!font-size'], // 能转化为vw的属性列表,!font-size表示font-size后面的单位不会被转换
                   viewportUnit: "vw", // 希望使用的视口单位
                   fontViewportUnit: "vw", // 字体使用的视口单位
                   selectorBlackList: ["keep-px"], // 需要忽略的CSS选择器，不会转为视口单位，使用原有的px等单位。
