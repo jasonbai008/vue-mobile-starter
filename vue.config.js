@@ -1,7 +1,7 @@
 const { defineConfig } = require("@vue/cli-service");
 
 module.exports = defineConfig({
-  // outputDir: "docs", // 默认是dist，这里为了在github上预览改成的docs
+  outputDir: "docs", // 默认是dist，这里为了在github上预览改成的docs
   publicPath: "", // 配置成空或者.，就能部署在任意路径下了。默认是/
   css: {
     loaderOptions: {
