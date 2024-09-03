@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h4>使用了 postcss-px-to-viewport 插件3</h4>
+    <h4>使用了 postcss-px-to-viewport 插件</h4>
     <h4>将 px 动态转成 vw</h4>
     <van-button type="primary" @click="show">Vant Button</van-button>
   </div>
